@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+    position: relative;
+    margin: 0;
+    text-align: center !important;
+    color: black;
+}
+
+#title{
+    background: #61e0d8;
+    background: linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -moz-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -webkit-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    padding-bottom: 70px;
+}
+
+li:hover{
+    background-color: white;
+}
+
+a{
+    font-family: 'Questrial', sans-serif;
+    color: blue !important;
+    margin-right: 20px;
+    font-size:1.2rem; 
+}
+
+.main-text{
+    font-family: 'Sacramento', cursive;
+    margin-top:100px;
+    font-size:5.0rem; 
+}
+
+.main-small-text{
+    margin-top: 50px;
+    font-family: 'Sans-serif', cursive;
+}
+
+.lines{
+    border-top: 2px dotted black;
+    width:10%;
+}
+
+#about{
+    padding:70px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.about-image{
+    margin-top: 40px;
+    border-radius: 80px;
+    height:200px;
+    width:200px;
+}
+
+.heading{
+   font-size: 2.5rem;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 500;
+   letter-spacing: 2px;
+}
+
+.about-info{
+    margin-top:20px;
+}
+
+#text_scramble{
+    background: #61e0d8;
+    background: linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -moz-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -webkit-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    padding: 70px;
+    font-size: 2rem;
+    font-family: 'Questrial', sans-serif;
+}
+
+#myBtn{
+    display: none; 
+    position: fixed; 
+    bottom: 10px;    
+    left: 20px;  
+    z-index: 99; 
+    height: 35px;
+    width: 35px;
+    cursor: pointer; 
+}
+
+#myBtn:hover{
+    filter: invert(20%) sepia(90%) saturate(3207%) hue-rotate(10deg) brightness(95%) contrast(500%);
+}
+
+.side-bar{
+    padding: 2px;
+    display: block; 
+    position: fixed; 
+    right: 15px; 
+    z-index: 99; 
+    height: 25px;
+    width: 25px;
+    cursor: pointer; 
+}
+
+.side-bar:hover{
+    background-color: red;
+}
+
+.myBtn1{
+    top: 50%;
+
+}
+
+.myBtn2{
+    top: 57%;  
+}
+
+.myBtn3{
+    top: 64%;  
+}
+
+.myBtn4{
+    top: 71%;  
+}
+
+.myBtn5{
+    top: 78%;  
+}
+
+.colors{
+    display: none;
+    right:15px;
+    z-index: 99;
+    position: fixed; 
+    padding: 10px ;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.btn-1{
+    top:83%;
+    background-color: #cdebfa;
+}
+
+.btn-2{
+    top:88%;
+    background-color: white;
+}
+
+#timeline{
+    padding:70px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.vertical {
+    border-left: 4px solid gray;
+    height: 520px;
+    position:absolute;
+    left: 50%;
+    margin-top: 40px;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: gray;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 49%;
+    border-radius: 40%;
+}
+#circle2{
+   width: 20px;
+   height: 20px;
+   display: block;
+   background: gray;
+   margin-top: 100px;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: 49%;
+   border-radius: 40%;
+}
+
+h3{
+   margin-left:50px;
+   font-size: 15px !important;
+} 
+
+#portfolio{
+    background: #61e0d8;
+    background: linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -moz-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    background: -webkit-linear-gradient(317deg, #61e0d8 8%,#cdebfa 8%);
+    padding: 70px;
+    font-size: 1.4rem;
+    font-family: 'Questrial', sans-serif;
+}
+
+.slide{
+    margin-top: 40px;
+}
+
+.portfolio-image{
+   width:100%;
+   height:400px;
+}
+
+#contact{
+    padding:70px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.contact-info{
+    margin-top: 40px;
+}
+
+
+@media (max-width: 500px){
+     #circle,#circle2{
+      margin-right: 45%;
+     }
+}
+
+
+@media (max-width: 800px){
+      .heading{
+         font-size:2rem ;
+         letter-spacing: 1.5px;
+      }
+      .about-info,.text{
+        font-size:15px !important;
+      }
+      .main-text{
+        font-size: 4rem;
+      }
+      h4,em{
+        font-size: 12px !important;
+      }
+}
+
+@media (max-width: 575px){
+     .pricing-col {
+        margin: 10px 0 15px 0;
+     }
+
+     .portfolio-image{
+        width:100%;
+        height:200px;
+     }
+}
+
+@media (max-width: 370px){
+     .portfolio-image{
+        width:100%;
+        height:150px;
+     }
+}
